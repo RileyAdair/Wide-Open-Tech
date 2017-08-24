@@ -1,0 +1,209 @@
+/* green = #bdd436
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+
+
+/*==============================================================================
+Header
+*/
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+li {
+  padding: 20px 0 20px 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 23px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wide-open-logo img {
+  height: 31px;
+  width: auto;
+}
+
+.nav-link {
+  color: #F0F0F0;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  border-bottom: 4px solid #bdd436;
+}
+
+
+
+/*==============================================================================
+Learn More section
+*/
+
+.learn-more {
+  width: 100%;
+  background: url('img/test.png')no-repeat top center;
+  background: url('./img/wot-masthead-dark.jpg')no-repeat top center;
+  background-size: cover;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7.8%;;
+}
+
+.learn-more-container {
+  text-align: center;
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learn-more .button {
+  margin-top: 45px;
+  background: #bdd436;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 13px;
+  border-radius: 25px;
+  line-height: 1.5;
+  width: 360px;
+  text-align: center;
+}
+
+.learn-more .button:hover {
+  background: #c8e03a;
+}
+
+.learn-more h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 9.9em;
+  line-height: .8em;
+}
+
+.learn-more h2, .learn-more h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.learn-more h2 {
+  align-self: flex-start;
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.learn-more-bracket-container {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learn-more h3 {
+  font-size: 21px;
+  margin: 0 55px;
+}
+
+.learn-more .bracket{
+  height: 10px;
+  width: 92px;
+  background: #fff;
+}
+
+.orange {
+  color: #FF803A;
+}
+
+.green {
+  color: #c8e03a;
+}
+
+
+
+/*==============================================================================
+Works Section
+*/
+.works {
+  width: 100%;
+  background: #F0F0F0;
+}
+.works-container {
+  color: #6A787C;
+  text-align: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.works p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top:
+}
+
+.works h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.works .green {
+  font-weight: 700;
+}
+
+.works-sprite-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.works-sprite {
+  position: absolute;
+    left: -10px;
+    top: -100px;
+}
